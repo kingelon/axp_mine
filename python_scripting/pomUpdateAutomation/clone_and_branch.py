@@ -5,7 +5,7 @@ import os
 target_dir = r"C:\Users\vippa\OneDrive\Documents\git_KE\test_git_clones"
 
 # Path to the repos.txt file
-repos_file_path = os.path.join("..", "data", "input", "giturls.txt")
+repos_file_path = os.path.join("..", "data", "input", "repos.txt")
 
 # Ensure the target directory exists
 os.makedirs(target_dir, exist_ok=True)
@@ -34,7 +34,7 @@ with open(repos_file_path, "r") as file:
             subprocess.run(["git", "checkout", "-b", "POMupdates"])
 
             # Optionally, you can push the new branch to the remote
-            # subprocess.run(["git", "push", "-u", "origin", "POMupdates"])
+            subprocess.run(["git", "push", "-u", "origin", "POMupdates"])
 
             # Change back to the target directory for the next repo
             os.chdir(target_dir)
