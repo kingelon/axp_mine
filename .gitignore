@@ -1,7 +1,8 @@
 venv/ 
-pythonScripting/venv/ 
+python_scripting/venv/ 
+python_scripting/data/
 .idea/ 
-pythonScripting/.idea/ 
+python_scripting/.idea/ 
 __pycache__/ 
 *.py[cod] 
 *$py.class 
