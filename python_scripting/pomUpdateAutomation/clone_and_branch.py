@@ -34,7 +34,7 @@ with open(repos_file_path, "r") as file:
             subprocess.run(["git", "checkout", "-b", "POMupdates"])
 
             # Optionally, you can push the new branch to the remote
-            subprocess.run(["git", "push", "-u", "origin", "POMupdates"])
+            #subprocess.run(["git", "push", "-u", "origin", "POMupdates"])
 
             # Change back to the target directory for the next repo
             os.chdir(target_dir)
