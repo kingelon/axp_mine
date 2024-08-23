@@ -77,8 +77,8 @@ def process_poms_in_folder(input_folder, output_csv_path, output_txt_path):
 
 # Example usage
 input_folder = r'C:\Users\vippa\OneDrive\Documents\git_KE\test_git_clones'  # Path to the folder containing multiple pom.xml files
-output_csv_path = r'C:\Users\vippa\OneDrive\Documents\git_KE\test_git_clones\output\dependencies.csv'  # Path to output CSV file
-output_txt_path = r'C:\Users\vippa\OneDrive\Documents\git_KE\test_git_clones\output\pom_paths.txt'  # Path to output text file with pom paths
+output_csv_path = r'C:\Users\vippa\OneDrive\Documents\git_KE\axp_mine\python_scripting\data\output\dependencies.csv'  # Path to output CSV file
+output_txt_path = r'C:\Users\vippa\OneDrive\Documents\git_KE\axp_mine\python_scripting\data\output\pom_paths.txt'  # Path to output text file with pom paths
 
 # Ensure the output directory exists
 os.makedirs(os.path.dirname(output_csv_path), exist_ok=True)
